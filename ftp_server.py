@@ -11,7 +11,7 @@ authorizer.add_anonymous("/home/nobody")
 handler = FTPHandler
 handler.authorizer = authorizer
 
-# FTP_1_flag : Aero{d0nt_sh4r3_y0u_h4cks!!}
+# Pentes_Host1_Flag4:Aero{d0nt_sh4r3_y0u_h4cks}
 
 server = FTPServer(("0.0.0.0", 21), handler)
 server.serve_forever()
