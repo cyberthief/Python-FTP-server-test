@@ -11,7 +11,7 @@ authorizer.add_user("backdoor", "xaker1337", "/home/xaker", perm="elradfmw")
 handler = FTPHandler
 handler.authorizer = authorizer
 
-# Pentes_Host1_Flag4:Aero{d0nt_sh4r3_y0u_h4cks}
+# Pentest_Host1_Flag4:Aero{d0nt_sh4r3_y0u_h4cks}
 
 server = FTPServer(("0.0.0.0", 21), handler)
 server.serve_forever()
